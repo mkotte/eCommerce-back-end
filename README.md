@@ -39,4 +39,4 @@ THEN I am able to successfully create, update, and delete data in my database
 * Initialized, seeded and ran server using Node.js
 
 ## Walkthrough Video
-Video(https://drive.google.com/file/d/1EKp7XIJoUT64Kaqj03qpbs03X7pwpP6i/view)
+Video (https://drive.google.com/file/d/1EKp7XIJoUT64Kaqj03qpbs03X7pwpP6i/view)
