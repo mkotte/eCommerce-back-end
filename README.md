@@ -39,31 +39,4 @@ THEN I am able to successfully create, update, and delete data in my database
 * Initialized, seeded and ran server using Node.js
 
 ## Walkthrough Video
-tag.get
-tag.get /id : 5
-tag.post
-{
-    "id": 9,
-    "tag_name": "hop-hip culture"
-}
-tag.put /:id = 9
-{
-    "tag_name": "hip-hop culture"
-}
-tag.delete /:id = 9
-category.get
-category.get /id = 1
-category.post /id = 6
-{
-    "id": 5,
-    "category_name": "Jackets"
-}
-category.put /id = 6 
-{
-"category_name": "Coats"
-}
-category.delete /:id = 6
-
-products.get
-products.delete
-products.get
+Video(https://drive.google.com/file/d/1EKp7XIJoUT64Kaqj03qpbs03X7pwpP6i/view)
