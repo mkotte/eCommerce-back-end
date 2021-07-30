@@ -43,10 +43,8 @@ router.post('/', async (req, res) => {
 
 router.put('/:id', async (req, res) => {
   // update a tag's name by its `id` value
-  console.log('route hit')
   try{
     const tagData = await Tag.update({tag_name: req.body.tag_name},{where: {id: req.params.id}})
-    console.log(req.body.tag_name)
     if(!tagData){
       console.log(2)
       res.status(404).json({ message:'No location found with this id!' })
@@ -65,6 +63,8 @@ router.delete('/:id', async (req, res) => {
     const tagData = await Tag.destroy( {where: {id: req.params.id}});
     if (!tagData){
       res.status(404).json({message: 'No location found with this id!'});
+    } else {
+      return res.status(200).json(tagData) 
     }
   } catch (err) {
     res.status(500).json(err)
